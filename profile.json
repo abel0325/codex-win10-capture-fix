@@ -1,0 +1,18 @@
+{
+  "id": "sky-0.7.13-49C7F43D",
+  "original_sha256": "49C7F43DA0C2A9DBCADFB0C993058147018BF7C1D0FDE4360DE11ACE2C98F45D",
+  "patched_sha256": "25A8CD31B5BC44C387CBF53EC3FE4CD314B5FCAC0D8D84201F444F1B2DB10FAB",
+  "upstream": {
+    "commit": "f29051c2c351eae707c87553509791a6f35b4bfe",
+    "url": "https://raw.githubusercontent.com/chen0416ccc-cpu/codex-windows-fast-patch-skill/f29051c2c351eae707c87553509791a6f35b4bfe/scripts/patch-computer-use-helper-win10.ps1",
+    "sha256": "8F961A6AB639F1E9FB2BE91F7F2F429F07CF9A68E80FCECD3654B525C60450D1"
+  },
+  "reference": {
+    "original_sha256": "6FCC7C6482DFD9B8E0CFC07F55B89D526779948B9B3EDA30EB2495573A36CC08",
+    "patched_sha256": "7C4DC7060A6081506C1614EA0831523EF1D68201CF34E6BD7DE7FB787D63DFA2"
+  },
+  "rebound_original_regions": [
+    { "name": "pe-checksum", "offset": 216, "length": 4 },
+    { "name": "mta-wrapper-and-unwind", "offset": 1535488, "length": 512 }
+  ]
+}

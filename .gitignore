@@ -1,0 +1,9 @@
+*.exe
+*.dll
+*.zip
+*.original
+*.log
+__pycache__/
+.local/
+dist/
+维护交接.md
